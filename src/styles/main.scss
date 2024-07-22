@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    
+    background-image: url('../images/backgroundimage.jpg');
+    background-size: auto;
+    background-position: center 13%;
+    background-repeat: no-repeat;
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        &__content {
+            
+            
+        }
+    }
+}
+
