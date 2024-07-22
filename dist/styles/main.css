@@ -7,7 +7,7 @@
 
 body {
   background-image: url("../backgroundimage.dc606532.jpg");
-  background-position: 50% 13%;
+  background-position: 50% 20%;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -17,5 +17,28 @@ body .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+body .container__content {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 42vh;
+  display: flex;
+}
+
+body .container__content__title {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+body .container__content__count {
+  color: #18f518;
+  background-color: #00000080;
+  border-radius: 10px;
+  font-size: 3rem;
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */
